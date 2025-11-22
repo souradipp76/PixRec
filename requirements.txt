@@ -1,0 +1,12 @@
+transformers
+torch
+rank_bm25
+numpy
+pandas
+scipy
+requests
+sentencepiece
+bm25s
+Trl
+bitsandbytes
+unsloth
