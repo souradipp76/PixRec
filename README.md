@@ -54,7 +54,7 @@ If you use this codebase in academic work, please cite:
 
 ```
 @misc{pixrec,
-  title   = {ICSE},
+  title   = {PixRec},
   author  = {Anonymous},
   year    = {2025},
   howpublished = {\url{https://github.com/anonymous/pixrec}}
