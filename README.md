@@ -53,11 +53,14 @@ python amaz_train.py --model_name HuggingFaceTB/SmolVLM-256M-Instruct --mode tes
 If you use this codebase in academic work, please cite:
 
 ```
-@misc{pixrec,
-  title   = {PixRec},
-  author  = {Anonymous},
-  year    = {2025},
-  howpublished = {\url{https://github.com/anonymous/pixrec}}
+@misc{chakrabarty2026pixrecleveragingvisualcontext,
+      title={PixRec: Leveraging Visual Context for Next-Item Prediction in Sequential Recommendation}, 
+      author={Sayak Chakrabarty and Souradip Pal},
+      year={2026},
+      eprint={2601.06458},
+      archivePrefix={arXiv},
+      primaryClass={cs.IR},
+      url={https://arxiv.org/abs/2601.06458}, 
 }
 ```
 
