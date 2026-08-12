@@ -53,14 +53,19 @@ python amaz_train.py --model_name HuggingFaceTB/SmolVLM-256M-Instruct --mode tes
 If you use this codebase in academic work, please cite:
 
 ```
-@misc{chakrabarty2026pixrecleveragingvisualcontext,
-      title={PixRec: Leveraging Visual Context for Next-Item Prediction in Sequential Recommendation}, 
-      author={Sayak Chakrabarty and Souradip Pal},
-      year={2026},
-      eprint={2601.06458},
-      archivePrefix={arXiv},
-      primaryClass={cs.IR},
-      url={https://arxiv.org/abs/2601.06458}, 
+@InProceedings{10.1007/978-3-032-24810-7_46,
+      author="Chakrabarty, Sayak
+      and Pal, Souradip",
+      editor="Arai, Kohei
+      and Lorenz, Pascal",
+      title="PixRec: Leveraging Visual Context for Next-Item Prediction in Sequential Recommendation",
+      booktitle="Intelligent Computing",
+      year="2026",
+      publisher="Springer Nature Switzerland",
+      address="Cham",
+      pages="763--775",
+      abstract="Large Language Models (LLMs) have recently shown strong potential for usage in sequential recommendation tasks through text-only models, which combine advanced prompt design, contrastive alignment, and fine-tuning on downstream domain-specific data. While effective, these approaches overlook the rich visual information present in many real-world recommendation scenarios, particularly in e-commerce. This study proposes PixRec - a vision-language framework that incorporates both textual attributes and product images into the recommendation pipeline. Our architecture leverages a vision--language model backbone capable of jointly processing image--text sequences, maintaining a dual-tower structure and mixed training objective while aligning multi-modal feature projections for both item--item and user--item interactions. Using the Amazon Reviews dataset augmented with product images, our experiments demonstrate {\$}{\$}3{\backslash}times {\$}{\$}3{\texttimes}and 40{\%} improvements in top-rank and top-10 rank accuracy over text-only recommenders, respectively, indicating that visual features can help distinguish items with similar textual descriptions. Our work outlines future directions for scaling multi-modal recommenders training, enhancing visual--text feature fusion, and evaluating inference-time performance. This work takes a step toward building software systems utilizing visual information in sequential recommendation for real-world applications like e-commerce.",
+      isbn="978-3-032-24810-7"
 }
 ```
 
